@@ -61,8 +61,8 @@ int main()
 {
 	char name;
 	printf_s("what is your name?");
-	scanf_s(" &c", &name, 10);
-	cout << &name;
+	scanf_s("%c", &name, 10);
+	printf("%c", name);
 
 	/*
 	int age;
