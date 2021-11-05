@@ -50,16 +50,16 @@ int main()
 	bool married;
 	cout << "Are you married, true(1) or false(0)?" <<endl;
 	cin >> married;
-
-	float lenght;
-	cout << "How tall are you?" <<endl;
-	cin >> lenght;
-	}
-	*/
-
-int main()
-{
-	char name;
-	printf_s("input");
-	scanf_s(name);
-}
+//
+//	float lenght;
+//	cout << "How tall are you?" <<endl;
+//	cin >> lenght;
+//	}
+//	*/
+//
+//int main()
+//{
+//	char name;
+//	printf_s("input");
+//	scanf_s(name);
+//}

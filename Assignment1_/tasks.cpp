@@ -60,6 +60,13 @@ int main()
 int main()
 {
 	char name;
-	printf_s("input");
-	scanf_s(name);
+	printf_s("what is your name?");
+	scanf_s(" &c", &name, 10);
+	cout << &name;
+
+	/*
+	int age;
+	printf_s("How old are you?" );
+	scanf_s(" &d", &age, 3);*/
+
 }
