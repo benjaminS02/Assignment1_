@@ -14,13 +14,14 @@ int main() {
 		cout << endl;
 	}*/
 
-	char number;
+	int number;
 	cout << ("Type a number") << endl;
 	cin >> number;
 	cout << "Result" << endl;
 	for (int y = 1; y <= number; y++) {
 		for (int e = 1; e <= y; e++) {
 			cout << e;
+	
 		}
 		cout << endl;
 	}
